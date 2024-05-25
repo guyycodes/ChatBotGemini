@@ -103,7 +103,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-          navigator.serviceWorker.register('/ChatBotGPT/sw.js', { scope: '/ChatBotGPT/' })
+          navigator.serviceWorker.register('/ChatBotGemini/sw.js', { scope: '/ChatBotGemini/' })
             .then(function(registration) {
               console.log('PWA service worker ready');
             }, function(err) {

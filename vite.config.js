@@ -10,15 +10,15 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt', '*.jpg', '*.png'], // Include all assets to be cached
       manifest: {
-        name: 'SVG Generator',
+        name: 'ChatBotGemini',
         short_name: 'SVGGen',
-        description: 'Generate SVG paths from Google Fonts',
+        description: 'Google Gemini Chatbot to interact with A.i',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
-        start_url: '/FontSVGconverter/', // start URL for GitHub Pages
-        id: '/FontSVGconverter/', // a consistent ID for the app
-        scope: '/FontSVGconverter/', // the scope to restrict what URLs are considered part of the app
+        start_url: '/ChatBotGemini/', // start URL for GitHub Pages
+        id: '/ChatBotGemini/', // a consistent ID for the app
+        scope: '/ChatBotGemini/', // the scope to restrict what URLs are considered part of the app
         icons: [
           {
             src: '192x192Icon.png', // path to the icon
@@ -64,6 +64,6 @@ export default defineConfig({
   // },
   build: {
     outDir: 'dist', // Default output directory
-    base: '/FontSVGconverter/', // Base public path set to match the GitHub repository name
+    base: '/ChatBotGemini/', // Base public path set to match the GitHub repository name
   },
 });
