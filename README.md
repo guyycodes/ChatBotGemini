@@ -1,6 +1,6 @@
 # React + Vite ChatBot (Progressive Web App) with Gemini API
 
-This project is a chatbot application built with React and Vite that allows users to interact with the Gemini API, a conversational AI platform powered by Google's language model. It is designed as a Progressive Web App (PWA), which means it can be installed on devices and used offline. Users can paste their Gemini API key into the application and start conversing with the chatbot.
+This project is a chatbot application built with React and Vite that allows users to interact with the Gemini API, a conversational AI platform powered by Google's language model. It is designed as a Progressive Web App (PWA), which means it can be installed on devices and used offline. Users can paste their Gemini API key into the application and start conversing with the chatbot. Acess the application here: https://www.geminichatapp.com/
 
 ## Features
 
